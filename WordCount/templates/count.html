@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>count</title>
+</head>
+<body>
+<h1>总字数为{{ count }}</h1><br>
+
+<h2>用户输入内容</h2>
+<br>
+{% for word,count in dict %}
+    {{ word }} 出现了 {{ count }} 次
+    <br>
+{% endfor %}
+</body>
+</html>
